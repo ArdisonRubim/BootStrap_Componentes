@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>BootStrap</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--Normalize-->
+        <link rel="stylesheet" type="text/css" href="bootstrap/normailize.css">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+        <style>h3,label{color: white;}</style>
+    </head>
+    <body class="bg-dark">
+        
+        <!-- Formulários -->
+        <div class="container" style="margin-top: 2rem;"><!--Inicio formulario 1-->
+            <h3>Formulário 1</h3>
+            <form>
+                <label>Digite seu nome:</label>
+                <input type="text" class="form-control" placeholder="digite seu nome"> <!-- Aplicando a classe form-control nos inputs -->
+
+                <label>Digite seu email:</label>
+                <input type="text" class="form-control" placeholder="digite seu email">
+
+                <label>Digite sua senha:</label>
+                <input type="password" name="senhaUsuario" class="form-control" placeholder="digite sua senha">
+            </form>
+            <button class="btn btn-warning btn-block" type="submit">ENVIAR</button>
+
+            <!-- Alert educacional -->
+            <div class="alert alert-success" style="margin-top: 2rem;">
+                Formuláro com formatação, classe FORM-CONTROL!
+            </div>
+
+        </div><!-- /Formulario 1 -->
+
+        <hr style="background-color: white;" />
+
+        <!-- Agrupando formulários -->
+        <div class="container" style="margin-top: 2rem;"><!--Inicio formulario 2-->
+            <h3>Formulário 2</h3>
+            <div class="form-group"> <!-- Aplicando a classe para agrupar-->
+                <form>
+                    <label>Digite seu nome:</label>
+                    <input type="text" name="nomeUsuario" class="form-control" placeholder="digite seu nome"> <!-- Aplicando a classe form-control nos inputs -->
+                </form>
+            </div>
+
+            <div class="form-group">
+                <form>
+                    <label>Digite seu email:</label>
+                    <input type="text" name="emailUsuario" class="form-control" placeholder="digite seu email">
+                </form>
+            </div>
+
+            <div class="form-group">
+                <form>
+                    <label>Digite sua senha:</label>
+                    <input type="password" name="senhaUsuario" class="form-control" placeholder="digite sua senha">
+                </form>
+            </div>
+            <button class="btn btn-warning btn-block" type="submit">ENVIAR</button>
+
+            <!-- Alert educacional -->
+            <div class="alert alert-success" style="margin-top: 2rem;">
+                Formuláro com formatação, classes FORM-CONTROL e FORM-GROUP!
+            </div>
+
+        </div><!-- /Formulario 2 -->
+
+        <hr style="background-color: white;" />
+
+         <!-- Mudando características dos formulários -->
+         <div class="container" style="margin-top: 2rem;"><!--Inicio formulario 3-->
+            <h3>Formulário 3</h3>
+            <div class="form-group"> <!-- Aplicando a classe para agrupar-->
+                <form>
+                    <label>Digite seu nome:</label>
+                    <!-- Aumentano o tamanho do input -->
+                    <input type="text" name="nomeUsuario" class="form-control form-control-lg" placeholder="digite seu nome"> <!-- Aplicando a classe form-control nos inputs -->
+                </form>
+            </div>
+
+            <div class="form-group">
+                <form>
+                    <label>Digite seu email:</label>
+                    <!-- Diminuindo o tamanho do input -->
+                    <input type="text" name="emailUsuario" class="form-control form-control-sm" placeholder="digite seu email">
+                </form>
+            </div>
+
+            <div class="form-group">
+                <form>
+                    <label>Digite sua senha:</label>
+                    <input type="password" name="senhaUsuario" class="form-control" placeholder="digite sua senha">
+                </form>
+            </div>
+            <button class="btn btn-warning btn-block" type="submit">ENVIAR</button>
+
+            <!-- Alert educacional -->
+            <div class="alert alert-success" style="margin-top: 2rem;">
+                Formuláro com formatação, classes FORM-CONTROL, FORM-GROUP, FORM-CONTROL-LG E FORM-CONTROL-SM!
+            </div>
+
+        </div><!-- /Formulario 3 -->
+
+        <hr style="background-color: white;" />
+
+        <!-- Colocando inputs em colunas -->
+        <div class="container" style="margin-top: 2rem;"><!--Inicio formulario 4-->
+            <h3>Formulário 4</h3>
+            <div  class="row">
+                <div class="form-group col-md-4 col-sm-12"> <!-- Aplicando a classe para agrupar / COL usado em grid-->
+                    <form>
+                        <label>Digite seu nome:</label>
+                        <!-- Aumentano o tamanho do input -->
+                        <input type="text" name="nomeUsuario" class="form-control form-control-lg" placeholder="digite seu nome"> <!-- Aplicando a classe form-control nos inputs -->
+                    </form>
+                </div>
+    
+                <div class="form-group col-md-4 col-sm-12">
+                    <form>
+                        <label>Digite seu email:</label>
+                        <!-- Diminuindo o tamanho do input -->
+                        <input type="text" name="emailUsuario" class="form-control form-control-sm" placeholder="digite seu email">
+                    </form>
+                </div>
+    
+                <div class="form-group col-md-4 col-sm-12">
+                    <form>
+                        <label>Digite sua senha:</label>
+                        <input type="password" name="senhaUsuario" class="form-control" placeholder="digite sua senha">
+                    </form>
+                </div>
+                
+            </div>
+            <button class="btn btn-warning btn-block" type="submit">ENVIAR</button>
+            
+
+            <!-- Alert educacional -->
+            <div class="alert alert-success" style="margin-top: 2rem;">
+                Formuláro com formatação, classes FORM-CONTROL, FORM-GROUP, FORM-CONTROL-LG, FORM-CONTROL-SM!, ROW e COL!
+            </div>
+
+        </div><!-- /Formulario 4 -->
+
+        <hr style="background-color: white;" />
+
+        <!-- Range -->
+        <div class="container">
+            <h3>Range</h3>
+            <div class="form-group">
+                <input type="range" class="form-control-range" > <!-- Classe form-control-range -->
+            </div>
+
+            <!-- Alert educacional -->
+            <div class="alert alert-success" style="margin-top: 2rem;">
+               Range com classe form-control-range
+            </div>
+        </div>
+
+        <hr style="background-color: white;" />
+
+         <!-- Ckeckbox -->
+         <div class="container">
+            <h3>Ckeckbox</h3>
+            <div class="form-group">
+                <input type="checkbox" class="form-check-input" disabled > <!-- Classe form-check-input desativada(disabled)-->
+                <label> Clique aqui </label> <!-- Necessita de um label -->
+            </div>
+
+            <!-- Alert educacional -->
+            <div class="alert alert-success" style="margin-top: 2rem;">
+               Checkbox com classe form-check-inpute, pode ser usado o DISABLED OU CHECKED(Em minúsculo).
+            </div>
+        </div>
+
+        <hr style="background-color: white;" />
+
+        <footer>
+            <!-- Js -->
+            <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="bootstrap/js/jquery.js"></script>
+        </footer>
+    </body>
+</html>
