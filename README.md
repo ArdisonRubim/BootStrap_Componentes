@@ -10,4 +10,8 @@ Destacar alguns componentes do bootstrap
 
 ![form](https://user-images.githubusercontent.com/70097577/126885446-abd1ff99-0266-4cb8-adb4-7a954752b18b.png)
 
-</div>
+## Linguagens e Frameworks usados:💻
+
+1. HTML
+2. CSS
+3. BOOTSTRAP
